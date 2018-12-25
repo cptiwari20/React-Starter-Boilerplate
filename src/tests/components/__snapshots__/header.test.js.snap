@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="content-container"
+  >
+    <div
+      className="header__container"
+    >
+      <Link
+        className="header__title"
+        replace={false}
+        to="/"
+      >
+        <h1>
+          MyReactApp
+        </h1>
+      </Link>
+      <div>
+        <button
+          className="button button--link"
+          onClick={[MockFunction]}
+        >
+          Log Out
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+`;
