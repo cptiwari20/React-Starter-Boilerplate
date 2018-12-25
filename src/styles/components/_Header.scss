@@ -1,0 +1,25 @@
+.header{
+  background: $dark-grey;
+};
+
+.header__container{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size 0;
+}
+
+.header__link{
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  padding: 0 $l-size;
+}
+
+.header__title{
+  color: white;
+  text-decoration: none;
+  h1{
+    margin: 0;
+  }
+}

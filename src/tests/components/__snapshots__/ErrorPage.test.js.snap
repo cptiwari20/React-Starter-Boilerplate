@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should correctly render Error Page 1`] = `
+<div>
+  <h1>
+    Sorry! No page found.
+  </h1>
+  <p>
+    Go to Dashboard.
+  </p>
+  <Link
+    replace={false}
+    to="/"
+  >
+    Home
+  </Link>
+</div>
+`;
